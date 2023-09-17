@@ -1,7 +1,6 @@
 import { cva } from "class-variance-authority";
 import { BUITheme } from "../../../types/component";
 import { ButtonShape, ButtonSize, ButtonVariant } from "./types";
-
 const primaryStyles = cva("text-white", {
   variants: {
     theme: {
